@@ -1,0 +1,26 @@
+{
+    "name": "rezzafr33/apaiio-laravel",
+    "homepage": "https://github.com/rezzafr33/apaiio-laravel",
+    "description": "A simple Laravel 5 service provider for including the ApaiIO / Amazon Product Advertising PHP Library.",
+    "type":"library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Apaiio\\Laravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Apaiio\\Laravel\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.1",
+        "exeu/apai-io": " 1.1.0"
+    },
+    "require-dev": {
+        "laravel/framework": "~5.1",
+        "phpunit/phpunit": "4.*"
+    }
+}
