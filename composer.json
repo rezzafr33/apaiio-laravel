@@ -16,11 +16,11 @@
     },
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "~5.1",
-        "exeu/apai-io": " 1.1.0"
+        "illuminate/support": "~5.3",
+        "exeu/apai-io": "~2.0"
     },
     "require-dev": {
-        "laravel/framework": "~5.1",
+        "laravel/framework": "~5.3",
         "phpunit/phpunit": "4.*"
     }
 }
